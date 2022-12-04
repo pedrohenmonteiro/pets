@@ -1,0 +1,16 @@
+import { Story, Meta } from '@storybook/react/types-6-0'
+import { MemoryRouter } from "react-router-dom";
+
+
+import {{pascalCase name}} from '.'
+
+export default {
+  title: '{{pascalCase name}}',
+  component: {{pascalCase name}}
+} as Meta
+
+export const Default: Story = () => (
+  <MemoryRouter>
+    <{{pascalCase name}} />
+  </MemoryRouter>
+);
