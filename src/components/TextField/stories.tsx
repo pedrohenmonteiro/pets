@@ -10,6 +10,7 @@ export default {
   args: {
     icon: <FiMail />,
     placeholder: "Email",
+    error: "teste",
   },
 } as Meta;
 
